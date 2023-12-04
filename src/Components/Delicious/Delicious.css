@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  width: 400%; /* 4 divs * 100% */
+  transition: left 0.5s ease-in-out;
+}
+
+.common-div {
+  height: 80vh;
+  padding: 40px 80px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.div1 h1 {
+  font-size: 45px;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.div2 h1 {
+  font-size: 60px;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: white;
+}
+
+.div3 h1 {
+  font-size: 60px;
+}
+
+.div4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.div4 h1 {
+  font-size: 26px;
+}
+
+.pizza-img {
+  width: 250px;
+  padding: 40px;
+  background: #ffffff3b;
+  border-radius: 160px;
+}

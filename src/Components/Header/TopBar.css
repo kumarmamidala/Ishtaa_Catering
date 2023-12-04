@@ -1,0 +1,270 @@
+.ads-para::selection {
+  background-color: #ffe500;
+}
+
+.topbar-icon {
+  font-size: 20px;
+  margin: 0px 5px;
+}
+
+.Topbarmain {
+  position: fixed;
+  z-index: 999;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 2px 88px 1px 74px;
+  height: 60px;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 0%), 0 10px 10px rgb(0 0 0 / 7%);
+}
+@media only screen and (max-width: 900px) {
+  .Topbarmain {
+    padding: 10px;
+    padding-top: 5px;
+  }
+}
+@media screen and (min-width: 1910px) {
+  .Topbarmain {
+    width: 100%;
+    padding: 0px 18rem;
+  }
+}
+.headtwo {
+}
+.Nav-linkk {
+  color: #000000;
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: bold;
+  font-family: "Philosopher";
+  margin: 7px 20px;
+  font-size: 22px;
+}
+
+.Nav-linkk123 {
+  height: 46px;
+  width: 194px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 639px) {
+  .Nav-linkk {
+    height: 36px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  /* .Nav-linkk123 {
+    height: 100%;
+    width: 100%;
+  } */
+}
+.Nav-linkk:hover {
+  color: #000000;
+}
+.ads-main {
+  background-color: white;
+  /* background-image: url(./media/bg.png); */
+  background-size: cover;
+}
+
+@media screen and (min-width: 1910px) {
+  .ads-main {
+    width: 100%;
+    padding: 0px 19rem 0rem 15rem;
+  }
+}
+
+.footer-part {
+  background-color: #00172b;
+}
+.foooter-link {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .buy-sell-images {
+    flex-direction: column;
+  }
+  .auction-hero-image {
+    margin: 20px;
+    background-color: transparent;
+    width: 326px;
+  }
+}
+
+.auction-login-small-screen {
+  background-color: #fbcb04;
+  margin-top: 8px;
+  padding: 9px;
+  color: white;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+  .login-btn1 {
+    display: none;
+  }
+
+  .ads-part {
+    padding: 30px !important;
+  }
+}
+
+/* -------------------- CSS from Sales V6 ---------------------- */
+
+.nav-link {
+  padding: 0px;
+}
+
+.Navbar {
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 0%), 0 10px 10px rgb(0 0 0 / 7%);
+  z-index: 999;
+}
+@media screen and (min-width: 1910px) {
+  .Navbar {
+    width: 70%;
+  }
+}
+
+.nav-buttons {
+  font-family: "Haffer";
+  font-weight: 400 !important;
+}
+
+.navbar1 {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar1 a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown1 {
+  overflow: hidden;
+  width: 150px;
+  text-align: left;
+}
+
+.dropdown1 .dropbtn1 {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  /* / padding: 14px 16px; / */
+  background-color: inherit;
+  font-family: Haffer;
+  margin: 0;
+  padding: 13px 0px;
+}
+
+.dropdown1:hover .dropbtn1::after {
+  content: "";
+  position: absolute;
+  top: 33px;
+  right: 81%;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fbcb04;
+}
+
+@media only screen and (min-width: 1910px) {
+  .dropdown1 .dropbtn1 {
+    padding: 13px 0px;
+  }
+}
+
+.navbar1 a:hover,
+.dropdown:hover .dropbtn1 {
+  background-color: white;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-transform: none;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #fbcb04 !important;
+  width: 150px;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #fbcb04;
+  /* color: white !important; */
+}
+
+.dropdown-content1 a:hover .drop-item-span {
+  transform: translateX(10px) !important;
+  margin-left: 20px;
+  transition: 0.8s;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.navbar-nav {
+  width: 100px;
+}
+
+.topbar-small {
+  padding: 6px 0px;
+}
+
+.topbar-logo {
+  height: 100%;
+}
+
+.topbar-main-icon {
+  color: #044b61;
+  font-size: 28px;
+}
+
+@media only screen and (min-width: 1910px) {
+  .topbar-small {
+    padding: 6px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-link {
+    width: 80px;
+  }
+  .topbar-small {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .topbar-logo {
+    margin-top: -12px;
+    margin-left: 7px;
+  }
+
+  .auction-login-small-screen {
+    margin-top: -10px;
+    display: none;
+  }
+  .auction-login-small-screen1 {
+    margin-top: -20px;
+  }
+}
