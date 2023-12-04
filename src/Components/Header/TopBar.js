@@ -5,6 +5,7 @@ import { Fragment, useState } from "react";
 import { FaDharmachakra } from "react-icons/fa";
 import "./TopBar.css";
 import logo from "./../Media/logo.avif";
+import logo2 from "./ishtaalogo.png";
 
 import { BsFillPersonFill, BsHandbagFill } from "react-icons/bs";
 
@@ -30,7 +31,9 @@ function TopBar() {
           <div className="flex w-full justify-center">
             <div className="flex items-center space-x-4">
               <div className="hidden lg:flex space-x-8 justify-around items-end space-y-2 text-[18px] pb-2 mr-4 font-[Marcellus] ">
-                <FaDharmachakra className="topbar-main-icon" />
+                {/* <FaDharmachakra className="topbar-main-icon" />
+                 */}
+                <img src={logo2} alt="" className="h-[80px]" />
               </div>
               {/* USER ACC  */}
             </div>
