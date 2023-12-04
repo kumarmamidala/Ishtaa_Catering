@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import img1 from "./../Media/hero-bg.webp";
+import img1 from "./ishtaahero.png";
 
 import "./Hero.css";
 
@@ -9,10 +9,10 @@ const HeroSection = () => {
   return (
     <Container
       id="home"
-      style={{ backgroundImage: `url(${img1})`, backgroundAttachment: "fixed" }}
+      // style={{ backgroundImage: `url(${img1})`, backgroundAttachment: "fixed" }}
     >
       <Wraper>
-        <LeftContent>
+        {/* <LeftContent>
           <Title>
             Radiant
             <br />
@@ -29,12 +29,10 @@ const HeroSection = () => {
               </button>
             </Link>{" "}
             &nbsp;
-            {/* <ButtonPrimay>Explore Us</ButtonPrimay>
-            <ButtonSecond>Get Started</ButtonSecond> <br />
-            <br /> */}
           </Buttons>
         </LeftContent>
-        <RightContent>{/* <img src="/img/hero.JPG" alt="" /> */}</RightContent>
+        <RightContent></RightContent> */}
+        <img src={img1} alt="" className="m-auto w-[70%]" />
       </Wraper>
     </Container>
   );
@@ -51,7 +49,7 @@ const Wraper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 7rem 6rem 8rem 7rem;
-
+  background: #f1feef;
   @media (min-width: 1900px) {
     padding: 100px 18.5rem;
     padding-bottom: 50px;
