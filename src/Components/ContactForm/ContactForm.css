@@ -1,0 +1,14 @@
+.input-section {
+  background-color: transparent;
+  border: 1px solid grey;
+  height: 38px;
+  margin-top: 10px;
+}
+
+.custom-btn {
+  padding: 8px 20px;
+  border: 1px solid grey;
+  width: fit-content;
+  margin: auto;
+  margin-top: 40px;
+}

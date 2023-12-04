@@ -56,30 +56,25 @@ const Wraper = styled.div`
   }
 
   @media (max-width: 1200px) {
-    padding: 0rem 1rem 0rem 5rem;
+    padding: 80px;
 
     padding-top: 88px;
-    margin-top: -88px;
   }
   @media (max-width: 900px) {
-    padding: 0rem 1rem 0rem 4rem;
+    padding: 80px;
     flex-direction: column;
 
     padding-top: 88px;
-    margin-top: -88px;
   }
   @media (max-width: 800px) {
-    padding: 0rem 1rem 0rem 4rem;
+    padding: 80px;
     flex-direction: column;
 
     padding-top: 88px;
-    margin-top: -88px;
   }
   @media (max-width: 700px) {
-    padding: 0rem 1rem 0rem 1rem;
-
+    padding: 80px;
     padding-top: 120px;
-    margin-top: -88px;
   }
 `;
 const LeftContent = styled.div`

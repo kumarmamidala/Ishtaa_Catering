@@ -3,16 +3,17 @@ import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import logo from "./../Media/footer-log.avif";
+import logo from "./ishtaalogo.png";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div
-      className="px-4 py-8 footer-part1"
-      //   style={{ backgroundColor: "#006D77" }}
-    >
-      <footer className="p-8 font-[Philosopher]">
+    <div>
+      <div
+        className="px-4 py-8 footer-part1"
+        //   style={{ backgroundColor: "#006D77" }}
+      >
+        {/* <footer className="p-8 font-[Philosopher]">
         <section>
           <div className="sm:flex flex-row">
             <div className="basis-1/4 m-4 space-y-6">
@@ -107,7 +108,27 @@ const Footer = () => {
             </a>
           </p>
         </section>
-      </footer>
+      </footer> */}
+      </div>
+      <div className="footer-bottom">
+        <div>
+          <img src={logo} alt="" className="footer-logo" />
+        </div>
+        <div className="flex gap-[30px] text-[18px] cursor-pointer">
+          <p>Home </p>
+          <p>Menu</p>
+          <p>Catering</p>
+          <p>Contact</p>
+          <p>Gallery</p>
+        </div>
+        <div className="flex gap-[20px] text-[20px]">
+          <BsFacebook />
+          <BsInstagram />
+        </div>
+      </div>
+      <div className="footer-bottom1">
+        © 2023. All Rights Reserved. Design by Terces
+      </div>
     </div>
   );
 };

@@ -151,7 +151,9 @@
 }
 
 .footer-part1 {
-  background-color: #044b61;
+  background-color: #f1feef;
+  background-image: url(./isthaa-footer.svg);
+  height: 40vh;
 }
 
 .footer-heading {
@@ -168,4 +170,24 @@
   font-size: 25px;
   color: white;
   margin-right: 15px;
+}
+
+.footer-bottom {
+  width: 100%;
+  background-color: #f1feef;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+}
+
+.footer-bottom1 {
+  background-color: #3c5b4c;
+  color: white;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 50px;
 }

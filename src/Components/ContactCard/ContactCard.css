@@ -1,0 +1,54 @@
+.contact-content {
+  margin: auto;
+  width: 100%;
+  color: white;
+  padding: 80px;
+}
+
+.contact-right {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-heading {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.contact-btn {
+  padding: 8px 20px;
+  background-color: transparent;
+  margin-right: auto;
+  border: 1px solid white;
+  margin-top: 40px;
+}
+
+.contact-btn2 {
+  padding: 8px 20px;
+  background-color: transparent;
+  border: 1px solid grey;
+  margin-top: 40px;
+}
+
+.contact-us-section {
+  background-color: #f1feef;
+  padding: 80px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.whatsapp {
+  border-right: 1px solid grey;
+}
+
+@media only screen and (min-width: 1910px) {
+  .contact-content {
+    padding: 80px 19rem;
+  }
+}
