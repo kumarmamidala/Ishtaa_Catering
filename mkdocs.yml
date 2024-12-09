@@ -1,0 +1,5 @@
+site_name: Ishtaa Catering Documentation
+nav:
+  - Home: index.md
+theme:
+  name: readthedocs
